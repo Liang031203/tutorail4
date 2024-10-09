@@ -13,7 +13,7 @@ jobs:
       with:
         distribution: 'adopt'
         java-version: '21'
-    - name: Switch to the directory containing pom.xml
-      run: cd path/to/your/project-directory
     - name: Run tests
-      run: mvn clean test
+      run: |
+        cd "D:\t4\tutorial4-main\pom.xml"
+        mvn clean test
